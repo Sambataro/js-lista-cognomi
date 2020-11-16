@@ -1,5 +1,5 @@
 // Lista Cognomi
-var listaCognomi = ["Rossi", "Colombo", "Caselli", "Brambilla"];
+var listaCognomi = ["Rossi", "Colombo", "Caselli", "Brambilla" , "Bianchi", "Cognome"];
 // Chiedere all’utente il cognome,
 var cognomeUtente = prompt("scrivi il tuo cognome")
 // inserirlo in un array con altri cognomi (Es: 'Pesce', ‘Castenetto’, 'Passaro', 'Grimaldi', ‘Rossi’, ‘Verdi’, ‘Bianchi’).
@@ -16,4 +16,4 @@ for (var i = 0; i < listaCognomi.length; i++) {
 
 var posizioneCognomeUtente = (listaCognomi.indexOf(cognomeUtente)) + 1;
 
-var cognomeUtenteStampa = document.getElementById("cognome-utente").innerHTML +=  posizioneCognomeUtente;
+var cognomeUtenteStampa = document.getElementById("cognome-utente").innerHTML = "Il tuo cognome occupa la posizione" + " " + posizioneCognomeUtente;
