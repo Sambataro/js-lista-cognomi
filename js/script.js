@@ -13,3 +13,7 @@ for (var i = 0; i < listaCognomi.length; i++) {
 }
 
 // Scrivi anche la posizione "umana" della lista in cui il nuovo utente si trova.
+
+var posizioneCognomeUtente = (listaCognomi.indexOf(cognomeUtente)) + 1;
+
+var cognomeUtenteStampa = document.getElementById("cognome-utente").innerHTML +=  posizioneCognomeUtente;
